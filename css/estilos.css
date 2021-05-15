@@ -11,7 +11,7 @@
 }
 
 body {
-    color: #555;
+    color: rgb(20, 19, 19);
     font-family: Open Sans;
     font-size: 16px;
     position: relative;
@@ -32,9 +32,9 @@ body {
     padding-top: 150px;
     padding-bottom: 100px;
     color: #fff;
-    background: url(fondo.png), #7b4397;
-    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-    background: url(fondo.png), linear-gradient(to left, #7b4397, #dc2430)
+    background: url(fondo.png), #3e4d16;
+    background: url(fondo.png), -webkit-gradient( from(#211c4d), to(#dc2430));
+    background: url(fondo.png), linear-gradient(#221f24, #201314)
 }
 
 .presupuesto {
@@ -69,11 +69,11 @@ body {
 
 .presupuesto_ingreso {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: #054d25;
 }
 
 .presupuesto_egreso {
-    background-color: #FF5049;
+    background-color: #7a6e6d;
 }
 
 .presupuesto_ingreso--texto,
@@ -191,8 +191,8 @@ h2 {
     margin-bottom: 15px;
 }
 
-.ingreso_titulo { color: #28B9B5; }
-.egreso_titulo { color: #FF5049; }
+.ingreso_titulo { color: #04413f; }
+.egreso_titulo { color: #0a8611; }
 
 .elemento {
     padding: 13px;
@@ -231,7 +231,7 @@ h2 {
 .egreso .elemento_valor,
 .egreso .elemento_porcentaje,
 .egreso .elemento_eliminar--btn {
-    color: #FF5049;
+    color: #a13b37;
 }
 
 
